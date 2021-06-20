@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>作品のリクエストページ</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<main class="separateView">
+		<section>
+			<article>
+				<div>
+					<span>タイトル</span><font color="red">(入力必須)</font>：<input type="text" id="title" required />
+					<span>作者：</span><input type="text" id="author" />
+				</div>
+				<div>
+					<span>作品の種類：</span>
+					<select id="workType">
+						<option value="web">Web小説</option>
+						<option value="book">書籍(小説)</option>
+						<option value="comic" selected>書籍(コミック)</option>
+						<option value="anime">アニメ</option>
+						<option value="other">その他</option>
+					</select>
+				</div>
+				<div>
+					<span>備考欄：</span>
+				</div>
+				<textarea id="remarks" cols="50" rows="10" placeholder="作者ご本人様の場合、魅力や見どころを記載して頂けると幸いです。"></textarea>
+				<button type="submit" onclick="PostData()">追加</button>
+			</article>
+            <hr/>
+			<article>
+				<div id="main">
+				</div>
+			</article>
+		</section>
+	</main>
+</body>
+</html>

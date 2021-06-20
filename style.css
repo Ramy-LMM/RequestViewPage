@@ -1,0 +1,45 @@
+body {
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 100vh;
+}
+
+.separateView {
+	display: flex;
+	flex-direction: column;
+	width:100vw;
+}
+
+hr {
+	border: 2px dashed #FF0000;
+}
+
+.parts {
+	width: 100vw;
+}
+
+.titleParts {
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.item {
+    display: inline-block;
+}
+
+.title {
+    display: inline-block;
+}
+
+.author {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.workType {
+	display: inline-block;
+}
+
+.remarks {
+}
