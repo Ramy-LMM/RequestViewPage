@@ -9,7 +9,7 @@ title：作品名<br>
 author：原作者名<br>
 workType：作品の種類【0:WEB小説 1:書籍(小説) 2:書籍(コミック) 3:アニメ 4:その他】<br>
 remarks：備考欄<br>
-url：作成したYoutube動画のURL<br>
+url：作成したYoutube動画のID(https://www.youtube.com/watch?v=○○○ の○○○部分)<br>
 <br>
 が入っているよ。<br>
 あたしのセンスではこれ以上デザインが思いつかないから、誰かアイデアがある人イジって！お願いします！<br>
