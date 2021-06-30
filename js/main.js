@@ -30,18 +30,23 @@ function convertWorkType_Num2Str(num) {
     var work_str = "";
     switch (num) {
         case "0":
+        case 0:
             work_str = "Web小説";
             break;
         case "1":
+        case 1:
             work_str = "書籍(小説)";
             break;
         case "2":
+        case 2:
             work_str = "書籍(コミック)";
             break;
         case "3":
+        case 3:
             work_str = "アニメ";
             break;
         case "4":
+        case 4:
             work_str = "その他";
             break;
     }
@@ -133,6 +138,7 @@ function PostData() {
             createElement(json);
             alert('リクエストありがとうございます！');
             clearItem();
+            LastId += 1;
         }
     }
     xhr.open('POST', 'add_data.php');
